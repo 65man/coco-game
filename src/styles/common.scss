@@ -1,0 +1,45 @@
+$btnColor: #4fc08d;
+@mixin w{
+  width: 1000px;
+  margin: auto
+}
+
+.w{
+  width: 1200px;
+  margin: auto;
+}
+
+body{
+  background: #f0f2f5;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.hide{
+  display: none;
+}
+
+.show{
+  display: block;
+}
+
+.ellipsis{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.clearfix:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.clearfix{
+  zoom:1;
+}
